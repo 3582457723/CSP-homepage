@@ -14,5 +14,99 @@
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <nav>
+  <a class="nav-logo" href="#">
+    <img src="assets/Chaba.png" alt="Chaba">
+    <span>Chaba</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#features">特徴</a></li>
+    <li><a href="#code">構文</a></li>
+    <li><a href="#types">型システム</a></li>
+    <li><a href="#pipeline">コンパイラ</a></li>
+    <li><a href="#studio">Studio Pro</a></li>
+    <li><a href="https://github.com/Altice-kun/Chaba_language" target="_blank" class="nav-cta">GitHub</a></li>
+  </ul>
+</nav>
     
+    <body class="bg-gray-900 min-h-screen flex items-center justify-center p-4" style="font-family: 'Noto Sans JP', sans-serif;">
+
+  <!-- メインコンテナ (スプラッシュ画面本体) -->
+  <div class="bg-[linear-gradient(135deg,#1b533a_0%,#3a8a5f_45%,#76b168_100%)] w-full max-w-4xl rounded-xl shadow-2xl overflow-hidden p-8 md:p-12 text-white flex flex-col md:flex-row items-center gap-8 md:gap-12 transition-all duration-300 hover:shadow-[0_20px_50px_rgba(0,189,165,0.15)]">
+    
+    <!-- 左側：ロゴエリア -->
+    <div class="flex-shrink-0 w-64 h-64 md:w-72 md:h-72 relative flex items-center justify-center select-none shadow-lg rounded-lg overflow-hidden bg-[#1a1a1a]">
+      <!-- 指定のロゴ画像を配置。ロード失敗時は、美しいコード再現のロゴに切り替わります -->
+      <img 
+        src="https://3582457723.github.io/CSP-homepage/assets/Chaba_Studio_Pro.png" 
+        alt="Chaba Studio Pro Logo" 
+        class="w-full h-full object-contain"
+        onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'w-full h-full border-[12px] border-[#00bda5] bg-[#1a1a1a] flex items-center justify-center relative\'><span class=\'text-[12rem] font-light text-[#00bda5] leading-none tracking-tighter\' style=\'font-family: &quot;Times New Roman&quot;, Times, serif;\'>Cs</span><span class=\'absolute bottom-2 left-2 text-[8px] text-[#00bda5]/80 scale-90 origin-bottom-left font-mono\'>Chaba Studio Pro</span></div>';"
+      />
+    </div>
+
+    <!-- 右側：テキスト・情報エリア -->
+    <div class="flex-grow flex flex-col justify-between h-full py-2 w-full md:w-auto">
+      
+      <!-- タイトルセクション -->
+      <div class="space-y-1 mb-6 text-center md:text-left">
+        <h1 class="text-4xl md:text-5xl font-bold tracking-wide drop-shadow-md">
+          Chaba Studio Pro
+        </h1>
+        <p class="text-lg md:text-xl font-medium text-white/90 tracking-wider">
+          Chaba Language-Specific IDE
+        </p>
+      </div>
+
+      <!-- 特徴リスト（ボーダーで囲まれたエリア） -->
+      <div class="border border-white/20 bg-white/5 backdrop-blur-sm rounded-lg p-5 md:p-6 mb-8 max-w-md mx-auto md:mx-0">
+        <ul class="space-y-3 text-lg md:text-xl font-medium tracking-wider">
+          <li class="flex items-center gap-3">
+            <span class="w-2.5 h-2.5 rounded-full bg-white block flex-shrink-0"></span>
+            <span>スムーズな動作</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="w-2.5 h-2.5 rounded-full bg-white block flex-shrink-0"></span>
+            <span>CVM内蔵</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="w-2.5 h-2.5 rounded-full bg-white block flex-shrink-0"></span>
+            <span>使いやすいUI設計</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- コピーライトセクション -->
+      <div class="text-[11px] md:text-xs text-white/80 space-y-0.5 tracking-wider font-light text-center md:text-left">
+        <p>Copyright 2026 おちゃば All rights reserved.</p>
+        <p>Copyright 2026 Altice All rights reserved.</p>
+        <p>Copyright 2026 Altice-Works Co. Ltd. All rights reserved.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+  <div class="footer-logo">
+    <img src="assets/Chaba.png" alt="Chaba">
+    <span>Chaba Language</span>
+  </div>
+  <div class="footer-links">
+    <a href="#features">特徴</a>
+    <a href="#code">構文</a>
+    <a href="#types">型システム</a>
+    <a href="#pipeline">コンパイラ</a>
+    <a href="#studio">Studio Pro</a>
+    <a href="https://github.com/Altice-kun/Chaba_language" target="_blank">GitHub</a>
+  </div>
+  <div class="footer-divider"></div>
+  <div class="footer-copy">
+    Copyright &copy; 2026 <strong>Altice</strong> / <strong>おちゃば</strong> / <strong>Chaba Language Project Team</strong> / <strong>Altice Works Co. Ltd.</strong><br>
+    All rights reserved.<br>
+    <br>
+    <small>Built with ❤️ on Java 21 &nbsp;·&nbsp; CVM 113 instructions &nbsp;·&nbsp; 332 tests passing</small>
+  </div>
+</footer>
 </body>
