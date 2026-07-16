@@ -634,3 +634,16 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   *, .hero-mascot { animation: none !important; }
 }
+
+.container {
+  display: flex; /* 要素を横に並べる */
+  align-items: center; /* 縦方向の中央揃え */
+}
+
+.container img {
+  width: 200px; /* 画像の大きさを指定 */
+}
+
+.text-box {
+  margin-left: 20px; /* 画像と右側の要素の間のすき間 */
+}
