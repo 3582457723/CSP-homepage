@@ -647,3 +647,13 @@ footer {
 .text-box {
   margin-left: 20px; /* 画像と右側の要素の間のすき間 */
 }
+
+.overlay {
+    user-select: none; /* 選択不可 */
+    -webkit-user-select: none; /* Safari用 */
+}
+
+@font-face {
+  font-family: 'dot'; /* 好きな名前をつけます */
+  src: url('../font/AiKonomiLikeLove.otf') format('otf'); /* ファイルの場所を指定します */
+}
